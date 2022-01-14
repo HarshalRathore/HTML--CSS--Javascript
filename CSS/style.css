@@ -9,7 +9,6 @@
     align-items: center;
     position: sticky;
     top: 0;
-    cursor: pointer;
 
 }
 
@@ -105,6 +104,7 @@
 
 .text-big {
     font-size: 30px;
+    padding: 0px 0px 17px 0px;
 }
 
 .text-small{
@@ -139,25 +139,29 @@
     width:21vmin; height:21vmin; border-radius:50%;
 }
 
-/* .sector{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-} */
-.secright{
+.secRight{
     display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
 }
+
+.paras{
+    padding: 100px 151px
+};
+}
+
 .thumbnail {
     width: 130%;
     height: 130%;
     margin: 50px 90px;
+
 }
 
 .thumbnail img{
-    width: 130%;
-    height: 130%; 
+    width: 75%;
+    height: 130%;
+    padding: 4px;
+    border: 3px solid black;
+    border-radius: 10%;
 }

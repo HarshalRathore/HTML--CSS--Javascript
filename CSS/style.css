@@ -152,6 +152,13 @@
     cursor: pointer; 
 }
 
+.search-btn:hover{
+    background: none;
+    color: lightcoral;
+    font-size: 15px;
+    font-weight: bolder;    
+}
+
 #search-btn:hover {
     background: none;
     color: lightcoral;

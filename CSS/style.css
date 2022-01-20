@@ -280,7 +280,8 @@ hr:after {
     width: 1364px;
     height: 659px;
     background-color: #e6e6e6;}
-.contactus-details-div {
+
+    .contactus-details-div {
     display: flex;
     /* background-color: lightgreen; */
     padding-bottom: 100px;
